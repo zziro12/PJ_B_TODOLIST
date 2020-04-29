@@ -1,0 +1,104 @@
+html{
+	background-color: lightgray;
+}
+body{
+	background-color: black;
+	margin: 0 auto;
+	width : 65%;
+	overflow: auto;
+}
+/*-------------------*/
+header{
+
+	background-color: white;
+	height: 100px;
+}
+
+section{
+
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+}
+
+/*   header   */
+
+#titletext{
+	font-size: 30px;
+	font-weight: bold;
+	color: #005766;
+	float: left;
+
+	margin: 50px 0  10px 0;
+	width: 200px;
+	transform: rotate(-30deg);
+}
+
+#newbutton{
+	margin: 30px 13px 0 0 ;
+	float: right;
+	width: 180px;
+	padding: 15px 15px;
+	text-align-last: center;
+	background-color: #3DB7CC;
+	color: white;
+	box-sizing:border-box;
+	border: 1px;
+}
+
+/*   section   */
+/*
+li{
+	text-align: left;
+	padding-left: 10px;
+}
+
+
+#buttons{
+	text-align: left;
+	color: red;
+	padding-left: 10px;
+}
+*/
+
+.topthreebutton{
+	text-align: left;
+	padding-left: 10px;
+
+	font-weight: 900;
+	line-height: 60px;
+	font-size: 20px;
+	width: 245px;
+	height: 60px;
+	float: right;
+	background-color: #005766;
+	margin: 0 13px 13px 0;
+	color: white;
+}
+
+.bottombutton{
+
+	line-height: 45px;
+	font-weight: 900;
+
+	text-align: left;
+	padding-left: 10px;
+	overflow: auto;
+	font-size: 18px;
+	width: 245px;
+	height: 80px;
+	float: right;
+	background-color: #B2EBF4;
+	margin: 0 13px 13px 0;
+}
+.startdate{
+	font-size: 12px;
+	font-weight: 400;
+	float: left;
+	line-height: 30px;
+}
+.arrow{
+	float: right;
+	margin: 0 0 0 12px;
+}
+
